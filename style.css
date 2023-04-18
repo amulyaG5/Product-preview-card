@@ -1,0 +1,92 @@
+:root{
+    --cream: hsl(30, 38%, 92%);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    background-color: var(--cream);
+    height: 100%;
+}
+
+.container{
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    line-height: 60px;
+}
+
+.image{
+    height: 500px;
+}
+
+.perfume-img{
+    width: 350px;
+    height: 500px;
+}
+.preview{
+    color: gray;
+}
+
+.floral{
+    color: gray;
+}
+
+.content h1 {
+    font-size: 43px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.content h4{
+    font-size:18px;
+    line-height: 25px;
+    text-align: justify;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.content{
+    background-color: white;
+    height: 500px;
+    padding: 25px;
+}
+
+.digits{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin-right: 103px;
+    align-items: center;
+}
+
+.first-digit{
+    color: darkgreen;
+    font-size: 25px;
+    font-weight: 600;
+    
+
+}
+
+
+
+.second-digit{
+    font-size:15px;
+    color: gray;
+    text-decoration: line-through;
+}
+
+button{
+    padding: 10px  20px;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+}
